@@ -1,17 +1,17 @@
 <navigator url="/pages/fishdex/fishdex" class="navi-button">
-  <image class="icon" mode="aspectFit" src="../../assets/fish/NH_Icon_Sea_bass.png"></image>
+  <image class="icon" mode="aspectFit" src="/assets/koi.png"></image>
   <text class="btn-text">鱼类图鉴</text>
-  <image class="icon" mode="aspectFit" src="../../assets/fish/NH_Icon_Sea_bass.png"></image>
+  <image class="icon" mode="aspectFit" src="/assets/koi.png"></image>
 </navigator>
 <navigator url="/pages/bugdex/bugdex" class="navi-button">
-  <image class="icon" mode="aspectFit" src="../../assets/bug/NH_Icon_Emperor_butterfly.png"></image>
+  <image class="icon" mode="aspectFit" src="/assets/butterfly.png"></image>
   <text class="btn-text">昆虫图鉴</text>
-  <image class="icon" mode="aspectFit" src="../../assets/bug/NH_Icon_Emperor_butterfly.png"></image>
+  <image class="icon" mode="aspectFit" src="/assets/butterfly.png"></image>
 </navigator>
 <navigator url="/pages/turnip-prices/turnip-prices" class="navi-button magin-top">
-  <image class="icon" mode="aspectFit" src="../../assets/turnip.png"></image>
+  <image class="icon" mode="aspectFit" src="/assets/turnip.png"></image>
   <text class="btn-text">大头菜预测</text>
-  <image class="icon" mode="aspectFit" src="../../assets/turnip.png"></image>
+  <image class="icon" mode="aspectFit" src="/assets/turnip.png"></image>
 </navigator>
 
 <view class="desc" style="text-align:center">
