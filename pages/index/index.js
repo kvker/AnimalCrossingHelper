@@ -1,5 +1,3 @@
-const app = getApp()
-
 // 在页面中定义激励视频广告
 let encourageAd = null
 

@@ -1,5 +1,4 @@
-var fish_nh_data = require('../../database/fish_nh.js')
-const utils = require('../../utils/utils')
+const fish_nh_data = require('../../database/fish_nh.js')
 
 Page({
 

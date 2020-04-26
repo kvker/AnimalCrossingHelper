@@ -1,5 +1,4 @@
-var bug_nh_data = require('../../database/bug_nh.js')
-const utils = require('../../utils/utils')
+const bug_nh_data = require('../../database/bug_nh.js')
 
 Page({
 
