@@ -22,7 +22,6 @@ var json=[
       "hongmuji",
       "hmj"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Bitterling.png"
   },
   {
     "name": "溪哥",
@@ -47,7 +46,6 @@ var json=[
       "xige",
       "xg"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Pale_chub.png"
   },
   {
     "name": "鲫鱼",
@@ -72,7 +70,6 @@ var json=[
       "jiyu",
       "jy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Crucian_carp.png"
   },
   {
     "name": "雅罗鱼",
@@ -97,7 +94,6 @@ var json=[
       "yaluoyu",
       "yly"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Dace.png"
   },
   {
     "name": "鲤鱼",
@@ -122,7 +118,6 @@ var json=[
       "liyu",
       "ly"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Carp.png"
   },
   {
     "name": "锦鲤",
@@ -147,7 +142,6 @@ var json=[
       "jinli",
       "jl"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Koi.png"
   },
   {
     "name": "金鱼",
@@ -172,7 +166,6 @@ var json=[
       "jinyu",
       "jy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Goldfish.png"
   },
   {
     "name": "龙睛金鱼",
@@ -197,7 +190,6 @@ var json=[
       "longjingjinyu",
       "ljjy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Pop-eyed_goldfish.png"
   },
   {
     "name": "兰寿金鱼",
@@ -222,7 +214,6 @@ var json=[
       "lanshoujinyu",
       "lsjy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Ranchu_goldfish.png"
   },
   {
     "name": "稻田鱼",
@@ -247,7 +238,6 @@ var json=[
       "daotianyu",
       "dty"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Killifish.png"
   },
   {
     "name": "淡水龙虾",
@@ -272,7 +262,6 @@ var json=[
       "danshuilongxia",
       "dslx"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Crawfish.png"
   },
   {
     "name": "鳖",
@@ -297,7 +286,6 @@ var json=[
       "bie",
       "b"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Soft-shelled_turtle.png"
   },
   {
     "name": "拟鳄龟",
@@ -322,7 +310,6 @@ var json=[
       "niegui",
       "neg"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Snapping_Turtle.png"
   },
   {
     "name": "蝌蚪",
@@ -347,7 +334,6 @@ var json=[
       "kedou",
       "kd"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Tadpole.png"
   },
   {
     "name": "青蛙",
@@ -372,7 +358,6 @@ var json=[
       "qingwa",
       "qw"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Frog.png"
   },
   {
     "name": "塘鳢鱼",
@@ -397,7 +382,6 @@ var json=[
       "tangliyu",
       "tly"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Freshwater_goby.png"
   },
   {
     "name": "泥鳅",
@@ -422,7 +406,6 @@ var json=[
       "niqiu",
       "nq"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Loach.png"
   },
   {
     "name": "鲶鱼",
@@ -447,7 +430,6 @@ var json=[
       "nianyu",
       "ny"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Catfish.png"
   },
   {
     "name": "黑鱼",
@@ -472,7 +454,6 @@ var json=[
       "heiyu",
       "hy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Giant_snakehead.png"
   },
   {
     "name": "蓝鳃太阳鱼",
@@ -497,7 +478,6 @@ var json=[
       "lansaitaiyangyu",
       "lstyy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Bluegill.png"
   },
   {
     "name": "黄鲈鱼",
@@ -522,7 +502,6 @@ var json=[
       "huangluyu",
       "hly"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Yellow_perch.png"
   },
   {
     "name": "黑鲈鱼",
@@ -547,7 +526,6 @@ var json=[
       "heiluyu",
       "hly"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Black_bass.png"
   },
   {
     "name": "吴郭鱼",
@@ -572,7 +550,6 @@ var json=[
       "wuguoyu",
       "wgy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Tilapia.png"
   },
   {
     "name": "白斑狗鱼",
@@ -597,7 +574,6 @@ var json=[
       "baibangouyu",
       "bbgy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Pike.png"
   },
   {
     "name": "西太公鱼",
@@ -622,7 +598,6 @@ var json=[
       "xitaigongyu",
       "xtgy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Pond_smelt.png"
   },
   {
     "name": "香鱼",
@@ -647,7 +622,6 @@ var json=[
       "xiangyu",
       "xy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Sweetfish.png"
   },
   {
     "name": "樱花钩吻鲑",
@@ -672,7 +646,6 @@ var json=[
       "yinghuagouwengui",
       "yhgwg"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Cherry_salmon.png"
   },
   {
     "name": "花羔红点鲑",
@@ -697,7 +670,6 @@ var json=[
       "huagaohongdiangui",
       "hghdg"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Char.png"
   },
   {
     "name": "金鳟",
@@ -722,7 +694,6 @@ var json=[
       "jinzun",
       "jz"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Golden_trout.png"
   },
   {
     "name": "远东哲罗鱼",
@@ -747,7 +718,6 @@ var json=[
       "yuandongzheluoyu",
       "ydzly"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Stringfish.png"
   },
   {
     "name": "鲑鱼",
@@ -772,7 +742,6 @@ var json=[
       "guiyu",
       "gy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Salmon.png"
   },
   {
     "name": "帝王鲑",
@@ -797,7 +766,6 @@ var json=[
       "diwanggui",
       "dwg"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_King_salmon.png"
   },
   {
     "name": "中华绒螯蟹",
@@ -822,7 +790,6 @@ var json=[
       "zhonghuarongaoxie",
       "zhrax"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Mitten_crab.png"
   },
   {
     "name": "孔雀鱼",
@@ -847,7 +814,6 @@ var json=[
       "kongqueyu",
       "kqy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Guppy.png"
   },
   {
     "name": "温泉医生鱼",
@@ -872,7 +838,6 @@ var json=[
       "wenquanyishengyu",
       "wqysy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Nibble_fish.png"
   },
   {
     "name": "神仙鱼",
@@ -897,7 +862,6 @@ var json=[
       "shenxianyu",
       "sxy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Angelfish.png"
   },
   {
     "name": "斗鱼",
@@ -922,7 +886,6 @@ var json=[
       "douyu",
       "dy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Betta.png"
   },
   {
     "name": "霓虹灯鱼",
@@ -947,7 +910,6 @@ var json=[
       "nihongdengyu",
       "nhdy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Neon_tetra.png"
   },
   {
     "name": "彩虹鱼",
@@ -972,7 +934,6 @@ var json=[
       "caihongyu",
       "chy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Rainbowfish.png"
   },
   {
     "name": "食人鱼",
@@ -997,7 +958,6 @@ var json=[
       "shirenyu",
       "sry"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Piranha.png"
   },
   {
     "name": "骨舌鱼",
@@ -1022,7 +982,6 @@ var json=[
       "gusheyu",
       "gsy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Arowana.png"
   },
   {
     "name": "黄金河虎",
@@ -1047,7 +1006,6 @@ var json=[
       "huangjinhehu",
       "hjhh"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Dorado.png"
   },
   {
     "name": "雀鳝",
@@ -1072,7 +1030,6 @@ var json=[
       "queshan",
       "qs"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Gar.png"
   },
   {
     "name": "巨骨舌鱼",
@@ -1097,7 +1054,6 @@ var json=[
       "jugusheyu",
       "jgsy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Arapaima.png"
   },
   {
     "name": "恩氏多鳍鱼",
@@ -1122,7 +1078,6 @@ var json=[
       "enshiduoqiyu",
       "esdqy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Saddled_bichir.png"
   },
   {
     "name": "鲟鱼",
@@ -1147,7 +1102,6 @@ var json=[
       "xunyu",
       "xy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Sturgeon.png"
   },
   {
     "name": "海天使",
@@ -1172,7 +1126,6 @@ var json=[
       "haitianshi",
       "hts"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Sea_butterfly.png"
   },
   {
     "name": "海马",
@@ -1197,7 +1150,6 @@ var json=[
       "haima",
       "hm"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Sea_horse.png"
   },
   {
     "name": "小丑鱼",
@@ -1222,7 +1174,6 @@ var json=[
       "xiaochouyu",
       "xcy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Clown_fish.png"
   },
   {
     "name": "拟刺尾鲷",
@@ -1247,7 +1198,6 @@ var json=[
       "niciweidiao",
       "ncwd"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Surgeonfish.png"
   },
   {
     "name": "耳带蝴蝶鱼",
@@ -1272,7 +1222,6 @@ var json=[
       "erdaihudieyu",
       "edhdy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Butterfly_fish.png"
   },
   {
     "name": "苏眉鱼",
@@ -1297,7 +1246,6 @@ var json=[
       "sumeiyu",
       "smy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Napoleonfish.png"
   },
   {
     "name": "狮子鱼",
@@ -1322,7 +1270,6 @@ var json=[
       "shiziyu",
       "szy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Zebra_turkeyfish.png"
   },
   {
     "name": "河豚",
@@ -1347,7 +1294,6 @@ var json=[
       "hetun",
       "ht"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Blowfish.png"
   },
   {
     "name": "刺豚",
@@ -1372,7 +1318,6 @@ var json=[
       "citun",
       "ct"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Puffer_fish.png"
   },
   {
     "name": "凤尾鱼",
@@ -1397,7 +1342,6 @@ var json=[
       "fengweiyu",
       "fwy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Anchovy.png"
   },
   {
     "name": "竹䇲鱼",
@@ -1422,7 +1366,6 @@ var json=[
       "zhuceyu",
       "zcy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Horse_mackerel.png"
   },
   {
     "name": "条石鲷",
@@ -1447,7 +1390,6 @@ var json=[
       "tiaoshidiao",
       "tsd"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Barred_knifejaw.png"
   },
   {
     "name": "鲈鱼",
@@ -1472,7 +1414,6 @@ var json=[
       "luyu",
       "ly"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Sea_bass.png"
   },
   {
     "name": "鲷鱼",
@@ -1497,7 +1438,6 @@ var json=[
       "diaoyu",
       "dy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Red_snapper.png"
   },
   {
     "name": "鲽鱼",
@@ -1522,7 +1462,6 @@ var json=[
       "dieyu",
       "dy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Dab.png"
   },
   {
     "name": "比目鱼",
@@ -1547,7 +1486,6 @@ var json=[
       "bimuyu",
       "bmy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Olive_flounder.png"
   },
   {
     "name": "鱿鱼",
@@ -1572,7 +1510,6 @@ var json=[
       "youyu",
       "yy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Squid.png"
   },
   {
     "name": "裸胸鳝",
@@ -1597,7 +1534,6 @@ var json=[
       "luoxiongshan",
       "lxs"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Moray_eel.png"
   },
   {
     "name": "五彩鳗",
@@ -1622,7 +1558,6 @@ var json=[
       "wucaiman",
       "wcm"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Ribbon_eel.png"
   },
   {
     "name": "鲔鱼",
@@ -1647,7 +1582,6 @@ var json=[
       "weiyu",
       "wy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Tuna.png"
   },
   {
     "name": "旗鱼",
@@ -1672,7 +1606,6 @@ var json=[
       "qiyu",
       "qy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Blue_marlin.png"
   },
   {
     "name": "白面弄鱼",
@@ -1697,7 +1630,6 @@ var json=[
       "baimiannongyu",
       "bmny"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Giant_trevally.png"
   },
   {
     "name": "鬼头刀",
@@ -1722,7 +1654,6 @@ var json=[
       "guitoudao",
       "gtd"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Mahi-mahi.png"
   },
   {
     "name": "翻车鱼",
@@ -1747,7 +1678,6 @@ var json=[
       "fancheyu",
       "fcy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Ocean_sunfish.png"
   },
   {
     "name": "鳐鱼",
@@ -1772,7 +1702,6 @@ var json=[
       "yaoyu",
       "yy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Ray.png"
   },
   {
     "name": "锯鲨",
@@ -1797,7 +1726,6 @@ var json=[
       "jusha",
       "js"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Saw_shark.png"
   },
   {
     "name": "双髻鲨",
@@ -1822,7 +1750,6 @@ var json=[
       "shuangjisha",
       "sjs"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Hammerhead_shark.png"
   },
   {
     "name": "鲨鱼",
@@ -1847,7 +1774,6 @@ var json=[
       "shayu",
       "sy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Great_white_shark.png"
   },
   {
     "name": "鲸鲨",
@@ -1872,7 +1798,6 @@ var json=[
       "jingsha",
       "js"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Whale_shark.png"
   },
   {
     "name": "吸盘鱼",
@@ -1897,7 +1822,6 @@ var json=[
       "xipanyu",
       "xpy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Suckerfish.png"
   },
   {
     "name": "灯笼鱼",
@@ -1922,7 +1846,6 @@ var json=[
       "denglongyu",
       "dly"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Football_fish.png"
   },
   {
     "name": "皇带鱼",
@@ -1947,7 +1870,6 @@ var json=[
       "huangdaiyu",
       "hdy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Oarfish.png"
   },
   {
     "name": "太平洋桶眼鱼",
@@ -1972,7 +1894,6 @@ var json=[
       "taipingyangtongyanyu",
       "tpytyy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Barreleye.png"
   },
   {
     "name": "矛尾鱼",
@@ -1997,7 +1918,6 @@ var json=[
       "maoweiyu",
       "mwy"
     ],
-    "imgFile": "../../assets/fish/NH_Icon_Coelacanth.png"
   }
 ]
 module.exports={data:json}

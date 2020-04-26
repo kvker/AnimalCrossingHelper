@@ -21,7 +21,6 @@ var json=[
       "baifendie",
       "bfd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Common_butterfly.png"
   },
   {
     "name": "斑缘点粉蝶",
@@ -45,7 +44,6 @@ var json=[
       "banyuandianfendie",
       "bydfd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Yellow_butterfly.png"
   },
   {
     "name": "凤蝶",
@@ -69,7 +67,6 @@ var json=[
       "fengdie",
       "fd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Tiger_butterfly.png"
   },
   {
     "name": "乌鸦凤蝶",
@@ -93,7 +90,6 @@ var json=[
       "wuyafengdie",
       "wyfd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Peacock_butterfly.png"
   },
   {
     "name": "青带凤蝶",
@@ -117,7 +113,6 @@ var json=[
       "qingdaifengdie",
       "qdfd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Common_bluebottle.png"
   },
   {
     "name": "大白斑蝶",
@@ -141,7 +136,6 @@ var json=[
       "dabaibandie",
       "dbbd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Paper_kite_butterfly.png"
   },
   {
     "name": "大紫蛱蝶",
@@ -165,7 +159,6 @@ var json=[
       "dazijiadie",
       "dzjd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Great_purple_emperor.png"
   },
   {
     "name": "大桦斑蝶",
@@ -189,7 +182,6 @@ var json=[
       "dahuabandie",
       "dhbd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Monarch_butterfly.png"
   },
   {
     "name": "大蓝闪蝶",
@@ -213,7 +205,6 @@ var json=[
       "dalanshandie",
       "dlsd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Emperor_butterfly.png"
   },
   {
     "name": "彩袄蛱蝶",
@@ -237,7 +228,6 @@ var json=[
       "caiaojiadie",
       "cajd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Agrias_butterfly.png"
   },
   {
     "name": "红颈凤蝶",
@@ -261,7 +251,6 @@ var json=[
       "hongjingfengdie",
       "hjfd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Rajah_Brookes_birdwing.png"
   },
   {
     "name": "亚历山大凤蝶",
@@ -285,7 +274,6 @@ var json=[
       "yalishandafengdie",
       "ylsdfd"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Queen_Alexandras_birdwing.png"
   },
   {
     "name": "飞蛾",
@@ -309,7 +297,6 @@ var json=[
       "feie",
       "fe"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Moth.png"
   },
   {
     "name": "皇蛾",
@@ -333,7 +320,6 @@ var json=[
       "huange",
       "he"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Atlas_moth.png"
   },
   {
     "name": "日落蛾",
@@ -357,7 +343,6 @@ var json=[
       "riluoe",
       "rle"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Madagascan_sunset_moth.png"
   },
   {
     "name": "中华剑角蝗",
@@ -381,7 +366,6 @@ var json=[
       "zhonghuajianjiaohuang",
       "zhjjh"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Long_locust.png"
   },
   {
     "name": "飞蝗",
@@ -405,7 +389,6 @@ var json=[
       "feihuang",
       "fh"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Migratory_locust.png"
   },
   {
     "name": "稻蝗",
@@ -429,7 +412,6 @@ var json=[
       "daohuang",
       "dh"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Rice_grasshopper.png"
   },
   {
     "name": "蚱蜢",
@@ -453,7 +435,6 @@ var json=[
       "zhameng",
       "zm"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Grasshopper.png"
   },
   {
     "name": "蟋蟀",
@@ -477,7 +458,6 @@ var json=[
       "xishuai",
       "xs"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Cricket.png"
   },
   {
     "name": "铃虫",
@@ -501,7 +481,6 @@ var json=[
       "lingchong",
       "lc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Bell_cricket.png"
   },
   {
     "name": "螳螂",
@@ -525,7 +504,6 @@ var json=[
       "tanglang",
       "tl"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Mantis.png"
   },
   {
     "name": "兰花螳螂",
@@ -549,7 +527,6 @@ var json=[
       "lanhuatanglang",
       "lhtl"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Orchid_mantis.png"
   },
   {
     "name": "蜜蜂",
@@ -573,7 +550,6 @@ var json=[
       "mifeng",
       "mf"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Honeybee.png"
   },
   {
     "name": "黄蜂",
@@ -597,7 +573,6 @@ var json=[
       "huangfeng",
       "hf"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Wasp.png"
   },
   {
     "name": "油蝉",
@@ -621,7 +596,6 @@ var json=[
       "youchan",
       "yc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Brown_cicada.png"
   },
   {
     "name": "斑透翅蝉",
@@ -645,7 +619,6 @@ var json=[
       "bantouchichan",
       "btcc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Robust_cicada.png"
   },
   {
     "name": "熊蝉",
@@ -669,7 +642,6 @@ var json=[
       "xiongchan",
       "xc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Giant_cicada.png"
   },
   {
     "name": "寒蝉",
@@ -693,7 +665,6 @@ var json=[
       "hanchan",
       "hc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Walker_cicada.png"
   },
   {
     "name": "暮蝉",
@@ -717,7 +688,6 @@ var json=[
       "muchan",
       "mc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Evening_cicada.png"
   },
   {
     "name": "蝉蜕",
@@ -741,7 +711,6 @@ var json=[
       "chantui",
       "ct"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Cicada_shell.png"
   },
   {
     "name": "红蜻蜓",
@@ -765,7 +734,6 @@ var json=[
       "hongqingting",
       "hqt"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Red_dragonfly.png"
   },
   {
     "name": "绿胸晏蜓",
@@ -789,7 +757,6 @@ var json=[
       "lvxiongyanting",
       "lxyt"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Darner_dragonfly.png"
   },
   {
     "name": "无霸勾蜓",
@@ -813,7 +780,6 @@ var json=[
       "wubagouting",
       "wbgt"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Banded_dragonfly.png"
   },
   {
     "name": "豆娘",
@@ -837,7 +803,6 @@ var json=[
       "douniang",
       "dn"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Damselfly.png"
   },
   {
     "name": "萤火虫",
@@ -861,7 +826,6 @@ var json=[
       "yinghuochong",
       "yhc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Firefly.png"
   },
   {
     "name": "蝼蛄",
@@ -885,7 +849,6 @@ var json=[
       "lougu",
       "lg"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Mole_cricket.png"
   },
   {
     "name": "水黾",
@@ -909,7 +872,6 @@ var json=[
       "shuimian",
       "sm"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Pondskater.png"
   },
   {
     "name": "龙蝨",
@@ -933,7 +895,6 @@ var json=[
       "longshi",
       "ls"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Diving_beetle.png"
   },
   {
     "name": "田鳖",
@@ -957,7 +918,6 @@ var json=[
       "tianbie",
       "tb"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Giant_water_bug.png"
   },
   {
     "name": "椿象",
@@ -981,7 +941,6 @@ var json=[
       "chunxiang",
       "cx"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Stinkbug.png"
   },
   {
     "name": "人面椿象",
@@ -1005,7 +964,6 @@ var json=[
       "renmianchunxiang",
       "rmcx"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Man-faced_stink_bug.png"
   },
   {
     "name": "瓢虫",
@@ -1029,7 +987,6 @@ var json=[
       "piaochong",
       "pc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Ladybug.png"
   },
   {
     "name": "虎甲虫",
@@ -1053,7 +1010,6 @@ var json=[
       "hujiachong",
       "hjc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Tiger_beetle.png"
   },
   {
     "name": "吉丁虫",
@@ -1077,7 +1033,6 @@ var json=[
       "jidingchong",
       "jdc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Jewel_beetle.png"
   },
   {
     "name": "提琴虫",
@@ -1101,7 +1056,6 @@ var json=[
       "tiqinchong",
       "tqc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Violin_beetle.png"
   },
   {
     "name": "星天牛",
@@ -1125,7 +1079,6 @@ var json=[
       "xingtianniu",
       "xtn"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Citrus_long-horned_beetle.png"
   },
   {
     "name": "琉璃星天牛",
@@ -1149,7 +1102,6 @@ var json=[
       "liulixingtianniu",
       "llxtn"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Rosalia_batesi_beetle.png"
   },
   {
     "name": "宝石象鼻虫",
@@ -1173,7 +1125,6 @@ var json=[
       "baoshixiangbichong",
       "bsxbc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Blue_weevil_beetle.png"
   },
   {
     "name": "蜣螂",
@@ -1197,7 +1148,6 @@ var json=[
       "qianglang",
       "ql"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Dung_beetle.png"
   },
   {
     "name": "雪隐金龟",
@@ -1221,7 +1171,6 @@ var json=[
       "xueyinjingui",
       "xyjg"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Earth-boring_dung_beetle.png"
   },
   {
     "name": "宝石金龟",
@@ -1245,7 +1194,6 @@ var json=[
       "baoshijingui",
       "bsjg"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Scarab_beetle.png"
   },
   {
     "name": "日铜锣花金龟",
@@ -1269,7 +1217,6 @@ var json=[
       "ritongluohuajingui",
       "rtlhjg"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Drone_beetle.png"
   },
   {
     "name": "哥利亚大角花金龟",
@@ -1293,7 +1240,6 @@ var json=[
       "geliyadajiaohuajingui",
       "glydjhjg"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Goliath_beetle.png"
   },
   {
     "name": "锯锹形虫",
@@ -1317,7 +1263,6 @@ var json=[
       "juqiaoxingchong",
       "jqxc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Saw_stag.png"
   },
   {
     "name": "深山锹形虫",
@@ -1341,7 +1286,6 @@ var json=[
       "shenshanqiaoxingchong",
       "ssqxc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Miyama_stag.png"
   },
   {
     "name": "大锹形虫",
@@ -1365,7 +1309,6 @@ var json=[
       "daqiaoxingchong",
       "dqxc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Giant_stag.png"
   },
   {
     "name": "彩虹锹形虫",
@@ -1389,7 +1332,6 @@ var json=[
       "caihongqiaoxingchong",
       "chqxc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Rainbow_stag.png"
   },
   {
     "name": "细身赤锹形虫",
@@ -1413,7 +1355,6 @@ var json=[
       "xishenchiqiaoxingchong",
       "xscqxc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Cyclommatus_stag.png"
   },
   {
     "name": "黄金鬼锹形虫",
@@ -1437,7 +1378,6 @@ var json=[
       "huangjinguiqiaoxingchong",
       "hjgqxc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Golden_stag.png"
   },
   {
     "name": "长颈鹿锯锹形虫",
@@ -1461,7 +1401,6 @@ var json=[
       "changjinglujuqiaoxingchong",
       "cjljqxc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Giraffe_stag.png"
   },
   {
     "name": "独角仙",
@@ -1485,7 +1424,6 @@ var json=[
       "dujiaoxian",
       "djx"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Horned_dynastid.png"
   },
   {
     "name": "高卡萨斯南洋大兜虫",
@@ -1509,7 +1447,6 @@ var json=[
       "gaokasasinanyangdadouchong",
       "gkssnyddc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Horned_atlas.png"
   },
   {
     "name": "象兜虫",
@@ -1533,7 +1470,6 @@ var json=[
       "xiangdouchong",
       "xdc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Horned_elephant.png"
   },
   {
     "name": "长戟大兜虫",
@@ -1557,7 +1493,6 @@ var json=[
       "zhangjidadouchong",
       "zjddc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Horned_hercules.png"
   },
   {
     "name": "竹节虫",
@@ -1581,7 +1516,6 @@ var json=[
       "zhujiechong",
       "zjc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Walking_stick.png"
   },
   {
     "name": "叶竹隐虫",
@@ -1605,7 +1539,6 @@ var json=[
       "yezhuyinchong",
       "yzyc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Walking_leaf.png"
   },
   {
     "name": "蓑衣虫",
@@ -1629,7 +1562,6 @@ var json=[
       "suoyichong",
       "syc"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Bagworm.png"
   },
   {
     "name": "蚂蚁",
@@ -1653,7 +1585,6 @@ var json=[
       "mayi",
       "my"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Ant.png"
   },
   {
     "name": "寄居蟹",
@@ -1677,7 +1608,6 @@ var json=[
       "jijuxie",
       "jjx"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Hermit_crab.png"
   },
   {
     "name": "海蟑螂",
@@ -1701,7 +1631,6 @@ var json=[
       "haizhanglang",
       "hzl"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Wharf_roach.png"
   },
   {
     "name": "苍蝇",
@@ -1725,7 +1654,6 @@ var json=[
       "cangying",
       "cy"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Fly.png"
   },
   {
     "name": "蚊子",
@@ -1749,7 +1677,6 @@ var json=[
       "wenzi",
       "wz"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Mosquito.png"
   },
   {
     "name": "跳蚤",
@@ -1773,7 +1700,6 @@ var json=[
       "tiaozao",
       "tz"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Flea.png"
   },
   {
     "name": "蜗牛",
@@ -1797,7 +1723,6 @@ var json=[
       "woniu",
       "wn"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Snail.png"
   },
   {
     "name": "鼠妇",
@@ -1821,7 +1746,6 @@ var json=[
       "shufu",
       "sf"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Pill_bug.png"
   },
   {
     "name": "蜈蚣",
@@ -1845,7 +1769,6 @@ var json=[
       "wugong",
       "wg"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Centipede.png"
   },
   {
     "name": "蜘蛛",
@@ -1869,7 +1792,6 @@ var json=[
       "zhizhu",
       "zz"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Spider.png"
   },
   {
     "name": "狼蛛",
@@ -1893,7 +1815,6 @@ var json=[
       "langzhu",
       "lz"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Tarantula.png"
   },
   {
     "name": "蝎子",
@@ -1917,7 +1838,6 @@ var json=[
       "xiezi",
       "xz"
     ],
-    "imgFile": "../../assets/bug/NH_Icon_Scorpion.png"
   }
 ]
 module.exports={data:json}
