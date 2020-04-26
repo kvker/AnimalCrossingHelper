@@ -15,20 +15,19 @@ const formatNumber = n => {
 }
 
 // 页面滚动到指定id的组件
-const pageScrollToId = function (page, id, offset) {
-    const query = wx.createSelectorQuery().in(page);
-    query.select(id).boundingClientRect();
-    query.selectViewport().scrollOffset();
-    query.exec((rects) => {
-        // 使页面滚动到指定item
-        const pos = rects[0].top - offset
-        wx.pageScrollTo({
-            scrollTop: pos,
-            duration: 300
-        })
+const pageScrollToId = function(page, id, offset) {
+  const query = wx.createSelectorQuery().in(page);
+  query.select(id).boundingClientRect();
+  query.selectViewport().scrollOffset();
+  query.exec((rects) => {
+    // 使页面滚动到指定item
+    const pos = rects[0].top - offset
+    wx.pageScrollTo({
+      scrollTop: pos,
+      duration: 300
     })
+  })
 }
-
 
 /**
  * param 将要转为URL参数字符串的对象
@@ -37,20 +36,19 @@ const pageScrollToId = function (page, id, offset) {
  * idx ,循环第几次，用&拼接
  * return URL参数字符串
  */
-const urlEncode = (param,idx, key, encode)=> {
-  console.log('idx',idx)
-  if(param==null) return ''
+const urlEncode = (param, idx, key, encode) => {
+  console.log('idx', idx)
+  if (param == null) return ''
   var paramStr = ''
-  var t = typeof (param)
+  var t = typeof(param)
   if (t == 'string' || t == 'number' || t == 'boolean') {
-    var one_is = idx < 3 ? '?':'&'
-    paramStr += one_is + key + '=' + ((encode==null||encode) ? encodeURIComponent(param) : param)
-  } 
-  else {
+    var one_is = idx < 3 ? '?' : '&'
+    paramStr += one_is + key + '=' + ((encode == null || encode) ? encodeURIComponent(param) : param)
+  } else {
     for (var i in param) {
       var k = key == null ? i : key + (param instanceof Array ? '[' + i + ']' : '.' + i);
       idx++
-      paramStr += urlEncode(param[i],idx, k, encode);
+      paramStr += urlEncode(param[i], idx, k, encode);
     }
   }
   return paramStr;
@@ -58,30 +56,29 @@ const urlEncode = (param,idx, key, encode)=> {
 
 /** string **/
 String.prototype.format = function(args) {
-    var result = this;
-    if (arguments.length > 0) {
-        if (arguments.length == 1 && typeof (args) == "object") {
-            for (var key in args) {
-                if(args[key]!=undefined){
-                    var reg = new RegExp("({" + key + "})", "g");
-                    result = result.replace(reg, args[key]);
-                }
-            }
+  var result = this;
+  if (arguments.length > 0) {
+    if (arguments.length == 1 && typeof(args) == "object") {
+      for (var key in args) {
+        if (args[key] != undefined) {
+          var reg = new RegExp("({" + key + "})", "g");
+          result = result.replace(reg, args[key]);
         }
-        else {
-            for (var i = 0; i < arguments.length; i++) {
-                if (arguments[i] != undefined) {
-                    var reg= new RegExp("({)" + i + "(})", "g");
-                    result = result.replace(reg, arguments[i]);
-                }
-            }
+      }
+    } else {
+      for (var i = 0; i < arguments.length; i++) {
+        if (arguments[i] != undefined) {
+          var reg = new RegExp("({)" + i + "(})", "g");
+          result = result.replace(reg, arguments[i]);
         }
+      }
     }
-    return result;
+  }
+  return result;
 }
 
 module.exports = {
   formatTime: formatTime,
   pageScrollToId: pageScrollToId,
-  urlEncode:urlEncode
+  urlEncode: urlEncode
 }

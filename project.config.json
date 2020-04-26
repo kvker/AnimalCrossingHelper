@@ -27,8 +27,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.10.4",
-	"appid": "wx50eacef195e0019e",
-	"projectname": "%E4%B8%80%E8%B5%B7%E5%8A%A8%E7%89%A9%E4%B9%8B%E6%A3%AE%E5%8A%A9%E6%89%8B%E5%90%A7",
+	"appid": "wx656cd64549b2d021",
+	"projectname": "一起动物之森小助手吧",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

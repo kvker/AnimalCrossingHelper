@@ -1,4 +1,3 @@
-<!--pages/turnip-prices/turnip-prices.wxml-->
 <view class="property">
     <text class="property-name">第一次在自己的岛上购买</text>
     <radio-group bindchange="onSetFirstBuy">

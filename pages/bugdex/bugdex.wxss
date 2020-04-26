@@ -1,5 +1,3 @@
-/* pages/bugdex.wxss */
-
 /* 搜索框 */
 .search-bar{
   box-sizing: border-box;

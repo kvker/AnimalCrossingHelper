@@ -1,4 +1,3 @@
-<!--index.wxml-->
 <view class="navi-button magin-top" bindtap="onclick_turnip_price">
   <image class="icon" mode="aspectFit" src="../../assets/turnip.png"></image>
   <text class="btn-text">大头菜预测</text>
@@ -16,8 +15,8 @@
 </view>
 
 <view class="desc" style="text-align:center">
-    <button class="bd mg0101" bindtap="onTapEncourageAd">激励开发者</button>
-    <text class="tips">目前小程序还在不断更新，欢迎反馈。
+  <button class="bd mg0101" bindtap="onTapEncourageAd">激励开发者</button>
+  <text class="tips">目前小程序还在不断更新，欢迎反馈。
     </text>
 </view>
 

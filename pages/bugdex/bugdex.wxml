@@ -1,16 +1,13 @@
-<!--pages/bugdex.wxml-->
 <view class="search-bar">
-    <input placeholder="输入名称/全拼/简拼查询" type="text" confirm-type="search"
-        bindinput="onInputSearch" bindconfirm="onConfirmSearch"></input>
+  <input placeholder="输入名称/全拼/简拼查询" type="text" confirm-type="search" bindinput="onInputSearch" bindconfirm="onConfirmSearch"></input>
 </view>
 
 <view class="list">
-    <block wx:for="{{dataList}}" wx:key="id" wx:if="{{index>=0 && !dataList[index].hide}}">
-        <view id="item-{{index}}" class="item" 
-            bindtap="onTapMoreInfo" data-index="{{dataList[index].name}}">
-            <image class="thumbnail" mode="aspectFit" src="{{dataList[index].imgFile}}" lazy-load="{{true}}"></image>
-            <p class="name">{{dataList[index].name}} </p>
-            <p class="price">{{dataList[index].price}} </p>
-        </view>
-    </block>
+  <block wx:for="{{dataList}}" wx:key="id" wx:if="{{index>=0 && !dataList[index].hide}}">
+    <view id="item-{{index}}" class="item" bindtap="onTapMoreInfo" data-index="{{dataList[index].name}}">
+      <image class="thumbnail" mode="aspectFit" src="{{dataList[index].imgFile}}" lazy-load="{{true}}"></image>
+      <text class="name">{{dataList[index].name}}</text>
+      <text class="price">{{dataList[index].price}}铃</text>
+    </view>
+  </block>
 </view>

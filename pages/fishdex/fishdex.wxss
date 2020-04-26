@@ -1,7 +1,4 @@
-/* pages/fishdex.wxss */
-
 /* 搜索框 */
-
 .search-bar{
   box-sizing: border-box;
   position: fixed;

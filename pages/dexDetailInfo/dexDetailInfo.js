@@ -1,4 +1,3 @@
-// pages/dexDetailInfo/dexDetailInfo.js
 const utils = require('../../utils/utils')
 
 var fish_nh_data = require('../../database/fish_nh.js')

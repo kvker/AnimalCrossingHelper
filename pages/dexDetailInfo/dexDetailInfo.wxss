@@ -1,4 +1,3 @@
-/* pages/dexDetailInfo/dexDetailInfo.wxss */
 view.detail-img{
   display: flex;
   height: 33%;
