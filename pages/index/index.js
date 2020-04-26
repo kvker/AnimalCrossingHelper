@@ -7,32 +7,8 @@ Page({
   data: {
 
   },
-  onShareAppMessage: function() {
-    return {
-      title: "动物之森小助手",
-      path: "/pages/index/index",
-    }
-  },
 
-  onclick_fishdex: function() {
-    wx.navigateTo({
-      url: '../fishdex/fishdex',
-    })
-  },
-
-  onclick_bugdex: function() {
-    wx.navigateTo({
-      url: '../bugdex/bugdex',
-    })
-  },
-
-  onclick_turnip_price: function() {
-    wx.navigateTo({
-      url: '../turnip-prices/turnip-prices',
-    })
-  },
-
-  onTapEncourageAd: function(e) {
+  onTapEncourageAd(e) {
     // 用户触发广告后，显示激励视频广告
     if (encourageAd) {
       encourageAd.show().catch(() => {
@@ -46,7 +22,7 @@ Page({
     }
   },
 
-  onLoad: function() {
+  onLoad() {
     // 在页面onLoad回调事件中创建激励视频广告实例
     if (wx.createRewardedVideoAd) {
       encourageAd = wx.createRewardedVideoAd({
@@ -55,6 +31,13 @@ Page({
       encourageAd.onLoad(() => {})
       encourageAd.onError((err) => {})
       encourageAd.onClose((res) => {})
+    }
+  },
+
+  onShareAppMessage() {
+    return {
+      title: "动物之森小助手",
+      path: "/pages/index/index",
     }
   },
 })

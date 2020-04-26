@@ -4,10 +4,10 @@
 
 <view class="list">
   <block wx:for="{{dataList}}" wx:key="id" wx:if="{{index>=0 && !dataList[index].hide}}">
-    <view id="item-{{index}}" class="item" bindtap="onTapMoreInfo" data-index="{{dataList[index].name}}">
+    <navigator url="{{'/pages/dexDetailInfo/dexDetailInfo?type=bug&name=' + dataList[index].name}}" class="item">
       <image class="thumbnail" mode="aspectFit" src="{{dataList[index].imgFile}}" lazy-load="{{true}}"></image>
       <text class="name">{{dataList[index].name}}</text>
       <text class="price">{{dataList[index].price}}铃</text>
-    </view>
+    </navigator>
   </block>
 </view>

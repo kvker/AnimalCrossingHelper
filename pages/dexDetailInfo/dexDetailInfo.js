@@ -11,112 +11,70 @@ Page({
    * 页面的初始数据
    */
   data: {
-    dexType:'undefined',
-    hemisphere:'sh',
-    index:0,
-    inspectData:'undefined',
+    dexType: 'undefined',
+    hemisphere: 'sh',
+    name: '',
+    inspectData: 'undefined',
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad(options) {
     var dexType = options.type
     var hemisphere = this.data.hemisphere
-    var index = options.index
+    var name = options.name
 
-    var inspectData = this.getInspectData(dexType, hemisphere, index)
+    var inspectData = this.getInspectData(dexType, hemisphere, name)
 
     this.setData({
-      inspectData:inspectData,
-      dexType:dexType,
-      index:index,
+      inspectData: inspectData,
+      dexType: dexType,
+      name: name,
     })
   },
 
-  getInspectData: function(type, hemisphere, index){
+  getInspectData(type, hemisphere, name) {
     var dataList = 'undefined'
-    if(type == 'fish'){
-      if(hemisphere == 'nh'){
+    if (type == 'fish') {
+      if (hemisphere == 'nh') {
         dataList = fish_nh_data.data
-      } else{
+      } else {
         dataList = fish_sh_data.data
       }
     }
-    if(type == 'bug'){
-      if(hemisphere == 'nh'){
+    if (type == 'bug') {
+      if (hemisphere == 'nh') {
         dataList = bug_nh_data.data
-      } else{
+      } else {
         dataList = bug_sh_data.data
       }
     }
-    index = decodeURI(index)
-    for(var item of dataList){
-      if(item.name == index)
+    name = decodeURI(name)
+    for (var item of dataList) {
+      if (item.name == name)
         return item
     }
     return {}
   },
 
   /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-    var paramsURL = utils.urlEncode(this.options, 1) 
+  onShareAppMessage() {
+    var paramsURL = utils.urlEncode(this.options, 1)
     return {
       title: "图鉴详情:" + this.data.inspectData.name,
       path: this.route + paramsURL
     }
   },
 
-  onHemisphereChange:function(e){
+  onHemisphereChange: function(e) {
     var h = e.detail.value
     var dexType = this.data.dexType
-    var index = this.data.index
+    var name = this.data.name
 
-    var inspectData = this.getInspectData(dexType, h, index)
+    var inspectData = this.getInspectData(dexType, h, name)
 
     this.setData({
       hemisphere: h,

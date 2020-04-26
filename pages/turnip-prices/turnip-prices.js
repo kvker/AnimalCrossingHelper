@@ -19,7 +19,7 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(options) {
+  onLoad(options) {
     try {
       // 获取本地存储的数据
       var value = wx.getStorageSync(SelfDataKey)
@@ -42,54 +42,16 @@ Page({
   },
 
   /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function() {},
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function() {},
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function() {
-
-  },
-
-  /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function() {
+  onShareAppMessage() {
     return {
       title: "大头菜预测！发财致富不求人!",
       path: "/pages/turnip-prices/turnip-prices",
     }
   },
 
-  onSetFirstBuy: function(e) {
+  onSetFirstBuy(e) {
     this.data.firstBuy = e.detail.value === 'true'
     this.saveSelfData()
     this.setData({
@@ -97,7 +59,7 @@ Page({
     })
   },
 
-  onPatternPickerChange: function(e) {
+  onPatternPickerChange(e) {
     this.data.previousPartternIndex = parseInt(e.detail.value)
     this.saveSelfData()
     this.setData({
@@ -105,7 +67,7 @@ Page({
     })
   },
 
-  onInputSunday: function(e) {
+  onInputSunday(e) {
     this.data.sundayPrice = parseInt(e.detail.value)
     this.saveSelfData()
     this.setData({
@@ -113,7 +75,7 @@ Page({
     })
   },
 
-  onInputDayPrice: function(e) {
+  onInputDayPrice(e) {
     var tmpArray = this.data.weekdayRecords
     var day = parseInt(e.currentTarget.dataset.day)
     var type = parseInt(e.currentTarget.dataset.type)
@@ -126,7 +88,7 @@ Page({
     })
   },
 
-  saveSelfData: function() {
+  saveSelfData() {
     // 将每日售价进行转换
     for (var i = 0; i < this.data.weekdayRecords.length; i++) {
       var price = parseInt(this.data.weekdayRecords[i])
@@ -144,11 +106,11 @@ Page({
     })
   },
 
-  onCalculate: function(e) {
+  onCalculate(e) {
     this.calculateOutput()
   },
 
-  setDefaultData: function() {
+  setDefaultData() {
     var defaultData = {
       firstBuy: false,
       previousPartternIndex: 4,
@@ -165,12 +127,12 @@ Page({
     })
   },
 
-  onResetSelfData: function(e) {
+  onResetSelfData(e) {
     var thisPage = this
     wx.showModal({
       title: '提示',
       content: '确定重置吗',
-      success: function(res) {
+      success(res) {
         if (res.confirm) {
           thisPage.setDefaultData()
           thisPage.saveSelfData()
@@ -179,7 +141,7 @@ Page({
     })
   },
 
-  calculateOutput: function() {
+  calculateOutput() {
     var prices = this.data.weekdayRecords
     var first_buy = this.data.firstBuy
     var previous_pattern = first_buy ? -1 : this.data.previousPartternIndex
